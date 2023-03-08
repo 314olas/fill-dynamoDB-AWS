@@ -1,0 +1,33 @@
+{
+  "name": "@rud/fill-dynamodb-aws",
+  "version": "1.0.0",
+  "description": "Fill an empty DynamoDB Tables in some data",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/314olas/fill-dynamoDB-AWS.git"
+  },
+  "scripts": {
+    "fill-dynamodb": "node ./index.js"
+  },
+  "keywords": [
+    "dynamodb",
+    "aws"
+  ],
+  "author": "Yevhen Rud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/314olas/fill-dynamoDB-AWS/issues"
+  },
+  "homepage": "https://github.com/314olas/fill-dynamoDB-AWS#readme",
+  "bin": {
+    "fill-dynamodb": "node ./index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1330.0",
+    "dotenv": "^16.0.3",
+    "minimist": "^1.2.8",
+    "uuid": "^9.0.0"
+  },
+  "type": "module"
+}
